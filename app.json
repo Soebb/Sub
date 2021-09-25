@@ -20,7 +20,7 @@
 		"API_HASH": {
 			"description": "API Hash of your app"
 		},
-		"APP_ID": {
+		"API_ID": {
 			"description": "App Id of your app."
 		},
 		"ALLOWED_USERS": {
