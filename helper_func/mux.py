@@ -108,7 +108,6 @@ async def hardmux_vid(vid_filename, sub_filename, msg):
             'ffmpeg','-hide_banner',
             '-i',vid,
             '-vf','subtitles='+sub,
-            'scale=-2:720p',
             '-c:v','h264',
             '-map','0:v:0',
             '-map','0:a:0?',
